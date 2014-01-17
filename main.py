@@ -19,10 +19,10 @@ clock = pygame.time.Clock()
 screen = pygame.display.set_mode((400, 700))
 pygame.display.set_caption('test')
 
-class Ship():
-    image = pygame.image.load('ship.png')
-    speed = 1
-    hp = 20
+# class Ship():
+#     image = pygame.image.load('ship.png')
+#     speed = 1
+#     hp = 20
 
 #Основной цикл
 while True:
@@ -35,7 +35,3 @@ while True:
     clock.tick(20)#Фпс
 
 pygame.quit()
-
-class Chlen():
-    def vargue(self):
-        print("chlen")
