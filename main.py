@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 import pygame
 import random
-import sys
 
 black = (0, 0, 0)
 white = (255, 255, 255)
@@ -19,10 +18,6 @@ clock = pygame.time.Clock()
 screen = pygame.display.set_mode((400, 700))
 pygame.display.set_caption('test')
 
-# class Ship():
-#     image = pygame.image.load('ship.png')
-#     speed = 1
-#     hp = 20
 
 #Основной цикл
 while True:
@@ -32,6 +27,6 @@ while True:
 
     pygame.display.flip()
 
-    clock.tick(20)#Фпс
+    clock.tick(20)  # Фпс
 
 pygame.quit()
